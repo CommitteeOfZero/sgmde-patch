@@ -1,0 +1,48 @@
+{
+    "windowTitle": "Steins;Gate My Darling's Embrace Steam Patch Installer",
+    "uninstallerWindowTitle": "Steins;Gate My Darling's Embrace Steam Patch Uninstaller",
+    "gameTitle": "Steins;Gate My Darling's Embrace",
+    "inputScriptVersionTitle": "English Steam",
+    "paths": {
+        "GAME_STEAM_NAME": "SG_My Darling's Embrace",
+        "PATCH_CONTENT": "DIST",
+        "LAUNCHERENG_PATH": "%GAME_PATH%/LauncherC0.exe",
+        "LANGUAGEBARRIER_LOG_PATH": "%GAME_PATH%/languagebarrier/log.txt",
+        "LAUNCHER_EXE": "LauncherC0.exe"
+    },
+    "platforms": {
+        "windows": {
+            "conflictingProcesses": [
+                "Game.exe",
+                "noidget.exe",
+                "Launcher.exe",
+                "LauncherC0.exe",
+                "SGMDEPatch-Installer.exe"
+            ],
+            "uninstallProductKey": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\SteinsGateMyDarlingsEmbraceSteamPatch",
+            "uninstallProductDisplayName": "Steins;Gate My Darling's Embrace Steam Patch",
+            "uninstallProductDisplayVersion": "1.0.0",
+            "uninstallProductVersionMajor": 1,
+            "uninstallProductVersionMinor": 0,
+            "uninstallProductUninstallString": "\"%GAME_PATH%/nguninstall.exe\"",
+            "paths": {
+                "COZ_CONFIG_LOCATION": "%LOCALAPPDATA%/Committee of Zero",
+                "CONFIG_LOCATION": "%COZ_CONFIG_LOCATION%/SGMDESteam",
+                "MAGES_CONFIG_LOCATION": "%MYDOCUMENTS%/My Games/mages_steam",
+                "GAME_CONFIG_LOCATION": "%MAGES_CONFIG_LOCATION%/SG_Darling/eng",
+                "DESKTOP_SHORTCUT_PATH": "%DESKTOP%/Steins;Gate My Darling's Embrace (Steam Patch).lnk",
+                "STARTMENU_SHORTCUT_PATH": "%STARTMENU%/Steins;Gate My Darling's Embrace (Steam Patch).lnk"
+            }
+        }
+    },
+    "playShortcut": {
+        "displayName": "Steins;Gate My Darling's Embrace (Steam Patch)",
+        "version": "1.0.0",
+        "targetPath": "%LAUNCHERENG_PATH%",
+        "workingDir": "%GAME_PATH%",
+        "tooltip": "Play Steins;Gate My Darling's Embrace (Steam Patch)",
+        "xdgCategories": "Game"
+    },
+    "origScriptArchivePath": "%GAME_PATH%/USRDIR/script.mpk",
+    "origScriptArchiveHash": "7f13bcbf083743ca43ab2554d92ac5c0"
+}

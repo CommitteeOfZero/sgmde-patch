@@ -1,0 +1,32 @@
+config.ps1
+temp/
+DIST/
+symbols/
+darling-edited-images/*
+!darling-edited-images/.gitkeep
+script_archive_steam/*
+!script_archive_steam/.gitkeep
+sgmde-scripts/*
+!sgmde-scripts/.gitkeep
+/*.zip
+/*.rar
+
+content/languagebarrier/audio/*
+!content/languagebarrier/audio/.gitkeep
+content/languagebarrier/subs/fonts/*
+!content/languagebarrier/subs/fonts/.gitkeep
+content/languagebarrier/videos/*
+!content/languagebarrier/videos/.gitkeep
+
+# noidget
+installer/build/*
+!installer/build/.gitkeep
+installer/deploy/
+installer/deployUninstaller/
+installer/userdata/enscriptToc.json
+installer/userdata/enscriptTocC.json
+
+# realboot
+launcher/build/*
+!launcher/build/.gitkeep
+launcher/deploy/
