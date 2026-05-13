@@ -1,6 +1,6 @@
 STEINS;GATE: My Darling's Embrace Improvement Patch
 Committee of Zero
-Version 1.0.0 - July 28, 2025
+Version 1.1.0 - Month X, 202X
 ==============================
 https://sonome.dareno.me
 https://twitter.com/CommitteeOf0

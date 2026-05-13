@@ -1,8 +1,8 @@
 {
     "__schema_version": 2,
     "appdatadir": "Committee of Zero\\SGMDESteam",
-    "patchName": "[CoZ] STEINS;GATE: My Darling's Embrace Improvement Patch (1.0.0)",
-    "patchVersion": "1.0.0",
+    "patchName": "[CoZ] STEINS;GATE: My Darling's Embrace Improvement Patch (1.1.0)",
+    "patchVersion": "1.1.0",
     "base": {
         "hookText": true,
         "improveDialogueOutlines": false,

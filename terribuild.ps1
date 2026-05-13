@@ -10,7 +10,7 @@ catch {
 }
 
 # EXE metadata configuration
-$version_string = "1.0.0"
+$version_string = "1.1.0"
 $tool_icon = "CoZIcon.ico"
 $game_icon = "LauncherIcon.ico"
 $publisher = "Committee of Zero"
@@ -238,6 +238,8 @@ New-Item -ItemType directory -Path $patchFolderName | Out-Null
 cd $patchFolderName
 New-Item -ItemType directory -Path DIST | Out-Null
 Move-Item -Force ..\..\DIST\* .\DIST
+New-Item -ItemType directory -Path achievements | Out-Null
+Copy-Item -Recurse -Force  ..\..\achievements\* .\achievements
 Move-Item -Force ..\..\installer\deploy\* .
 Move-Item -Force .\noidget.exe .\SGMDEPatch-Installer.exe
 cd ..\..\DIST
